@@ -1,0 +1,63 @@
+.qidiruv {
+    max-width: 1171px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 60px;
+    margin-bottom: 68px;
+
+    &__modeli {
+        border: none;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 110%;
+        color: #343434;
+    }
+
+    &__right {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__tugmasi {
+        border: none;
+        background-color: white;
+        margin: 0;
+        padding: 0;
+        margin-right: 20px;
+    }
+
+    &__form {
+        display: flex;
+        align-items: center;
+        border: 1px solid #343434;
+        box-sizing: border-box;
+        padding: 7px 12px;
+        margin-left: 23px;
+    }
+
+    &__text {
+        border: none;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 127.5%;
+        letter-spacing: 0.05em;
+        color: #D1D1D1;
+    }
+
+    &__search {
+        width: 20px;
+        border: none;
+        color: white;
+        background-color: white;
+        background-image: url(../image/search.svg);
+        background-repeat: no-repeat;
+        background-size: 20px 19px;
+    }
+}

@@ -1,0 +1,35 @@
+.hero {
+    max-width: 1170px;
+
+    &__list {
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+        list-style-type: none;
+        padding: 0;
+    }
+
+    &__item {
+        text-align: center;
+    }
+
+    &__link {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 150%;
+        text-transform: uppercase;
+        text-decoration: none;
+        text-align: center;
+        color: #343434;
+    }
+
+    &__active {
+        color: #FF9619;
+    }
+
+    &__link:hover {
+        color: #FF9619;
+    }
+}
