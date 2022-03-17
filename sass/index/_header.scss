@@ -18,6 +18,10 @@
         color: #343434;
     }
 
+    &__img {
+        display: none;
+    }
+
     &__number {
         font-family: 'Open Sans';
         font-style: normal;
@@ -37,5 +41,42 @@
         font-size: 13px;
         line-height: 150%;
         color: rgba(52, 52, 52, 0.7);
+    }
+
+    .header-burger {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .header {
+        margin-top: 14px;
+        margin-bottom: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .header-burger {
+            display: block;
+        }
+
+        &__link {
+            display: none;
+        }
+
+        &__tell {
+            display: none;
+        }
+
+        &__img {
+            display: block;
+        }
+
+        &__logo {
+            width: 111px;
+            height: 34px;
+        }
+
+
     }
 }

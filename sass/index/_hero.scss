@@ -33,3 +33,9 @@
         color: #FF9619;
     }
 }
+
+@media only screen and (max-width: 375px) {
+    .hero {
+        display: none;
+    }
+}

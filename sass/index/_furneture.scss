@@ -12,7 +12,6 @@
     &__box {
         width: 570px;
         height: 278px;
-        margin-right: 278ox;
         display: flex;
         align-items: center;
         background-color: #f2f3f5;
@@ -64,10 +63,14 @@
         background-color: white;
     }
 
-    &__footer {
+    &__bottom {
         width: 188px;
         margin: 0 auto;
-        border: none;
+    }
+
+    &__footer {
+        width: 188px;
+        border: 1px solid #FF9619;
         color: white;
         background-color: #FF9619;
         padding: 13px 15px;
@@ -79,5 +82,36 @@
         font-size: 16px;
         line-height: 150%;
         text-transform: uppercase;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .furniture {
+        max-width: 340px;
+        margin: 0 auto;
+        &__right {
+            display: none;
+            margin: 0;
+        }
+
+        &__box {
+            background-color: white;
+        }
+
+        &__wrapper {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 60px;
+        }
+
+        &__wrapper:last-child {
+            margin: 0;
+        }
+
+        &__footer {
+            margin-top: 30px;
+            margin-bottom: 90px;
+        }
     }
 }

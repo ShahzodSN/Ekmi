@@ -14,15 +14,22 @@
             <a href="#" class="header__link">Индивидуальная мебель</a>
             <a href="#" class="header__link">Контакты</a>
             <a href="index.html" class="header__logo-link">
-                <img class="header__logo" src="./image/top-logo.png" alt="logo">
+                <img class="header__logo" src="./image/top-logo.svg" alt="logo">
             </a>
             <a href="#" class="header__link">О компании</a>
-            <a href="tel:380996384537" class="header__number">+38 (099)-638-45-37</a>
+            <a href="tel:380996384537" class="header__number">
+                <img class="header__img" src="./image/mobile.svg"  width="21" height="21" alt="mobile">
+                <span class="header__tell">+38 (099)-638-45-37</span>
+            </a>
             <select class="header__language">
                 <option value="ru">RU</option>
                 <option value="eng">ENG</option>
                 <option value="uz">UZ</option>
             </select>
+
+            <a href="#" class="header-burger">
+                <img class="burger" src="./image/burger.svg" width="25px" height="23px" alt="burher">
+            </a>
         </header> <!-- end of header -->
     </div> <!-- end of header-container -->
 
@@ -85,10 +92,16 @@
 
     <div class="container qidiruv-container">
         <div class="qidiruv">
-            <select class="qidiruv__modeli">
-                <option value="3D">Все 2D-3D модели</option>
-                <option value="2D">Все 2D-3D модели</option>
-            </select>
+            <div class="qidiruv__wrapper">
+                <select class="qidiruv__modeli">
+                    <option value="3D">Все 2D-3D модели</option>
+                    <option value="2D">Все 2D-3D модели</option>
+                </select>
+    
+                <button class="qidiruv__ex">
+                    <img src="./image/mini-block.svg" alt="block">
+                </button>
+            </div>
             
             <div class="qidiruv__right">
                 <button class="qidiruv__tugmasi">
@@ -111,7 +124,10 @@
         <div class="furniture">
             <div class="furniture__wrapper">
                 <div class="furniture__box">
-                    <img class="furniture__img" src="./image/martin.png" alt="furniture">
+                    <picture>
+                        <source media="(max-width: 375px)" srcset="./image/martin1.png">
+                        <img class="furniture__img" src="./image/martin.png" alt="furniture">
+                    </picture>
                     <div class="furniture__right">
                         <h3 class="furniture__header">Martin</h3>
                         <p class="furniture__text">
@@ -121,7 +137,10 @@
                 </div>
 
                 <div class="furniture__box">
-                    <img class="furniture__img" src="./image/alba.png" alt="furniture">
+                    <picture>
+                        <source media="(max-width: 375px)" srcset="./image/alba1.png">
+                        <img class="furniture__img" src="./image/alba.png" alt="furniture">
+                    </picture>
                     <div class="furniture__right">
                         <h3 class="furniture__header">Alba</h3>
                         <p class="furniture__text">
@@ -133,7 +152,10 @@
 
             <div class="furniture__wrapper">
                 <div class="furniture__box">
-                    <img class="furniture__img" src="./image/toscana.png" alt="furniture">
+                    <picture>
+                        <source media="(max-width: 375px)" srcset="./image/toscana1.png">
+                        <img class="furniture__img" src="./image/toscana.png" alt="furniture">
+                    </picture>
                     <div class="furniture__right">
                         <h3 class="furniture__header">Toscana</h3>
                         <p class="furniture__text">
@@ -143,7 +165,10 @@
                 </div>
 
                 <div class="furniture__box">
-                    <img class="furniture__img" src="./image/leonardo.png" alt="furniture">
+                    <picture>
+                        <source media="(max-width: 375px)" srcset="./image/leonardo1.png">
+                        <img class="furniture__img" src="./image/leonardo.png" alt="furniture">
+                    </picture>
                     <div class="furniture__right">
                         <h3 class="furniture__header">Leonardo</h3>
                         <p class="furniture__text">
@@ -155,7 +180,10 @@
 
             <div class="furniture__wrapper">
                 <div class="furniture__box">
-                    <img class="furniture__img" src="./image/boorbon.png" alt="furniture">
+                    <picture>
+                        <source media="(max-width: 375px)" srcset="./image/boorbon1.png">
+                        <img class="furniture__img" src="./image/boorbon.png" alt="furniture">
+                    </picture>
                     <div class="furniture__right">
                         <h3 class="furniture__header">Boorbon</h3>
                         <p class="furniture__text">
@@ -165,7 +193,10 @@
                 </div>
 
                 <div class="furniture__box">
-                    <img class="furniture__img" src="./image/emilio.png" alt="furniture">
+                    <picture>
+                        <source media="(max-width: 375px)" srcset="./image/emilio1.png">
+                        <img class="furniture__img" src="./image/emilio.png" alt="furniture">
+                    </picture>
                     <div class="furniture__right">
                         <h3 class="furniture__header">Emilio</h3>
                         <p class="furniture__text">
@@ -177,7 +208,10 @@
 
             <div class="furniture__wrapper">
                 <div class="furniture__box">
-                    <img class="furniture__img" src="./image/nensi.png" alt="furniture">
+                    <picture>
+                        <source media="(max-width: 375px)" srcset="./image/nensi1.png">
+                        <img class="furniture__img" src="./image/nensi.png" alt="furniture">
+                    </picture>
                     <div class="furniture__right">
                         <h3 class="furniture__header">Nensi</h3>
                         <p class="furniture__text">
@@ -187,7 +221,10 @@
                 </div>
 
                 <div class="furniture__box">
-                    <img class="furniture__img" src="./image/tatami.png" alt="furniture">
+                    <picture>
+                        <source media="(max-width: 375px)" srcset="./image/tatami1.png">
+                        <img class="furniture__img" src="./image/tatami.png" alt="furniture">
+                    </picture>
                     <div class="furniture__right">
                         <h3 class="furniture__header">Tatami</h3>
                         <p class="furniture__text">
@@ -199,7 +236,10 @@
 
             <div class="furniture__wrapper">
                 <div class="furniture__box">
-                    <img class="furniture__img" src="./image/regina.png" alt="furniture">
+                    <picture>
+                        <source media="(max-width: 375px)" srcset="./image/regina1.png">
+                        <img class="furniture__img" src="./image/regina.png" alt="furniture">
+                    </picture>
                     <div class="furniture__right">
                         <h3 class="furniture__header">Regina</h3>
                         <p class="furniture__text">
@@ -209,7 +249,10 @@
                 </div>
 
                 <div class="furniture__box">
-                    <img class="furniture__img" src="./image/malta.png" alt="furniture">
+                    <picture>
+                        <source media="(max-width: 375px)" srcset="./image/malta1.png">
+                        <img class="furniture__img" src="./image/malta.png" alt="furniture">
+                    </picture>
                     <div class="furniture__right">
                         <h3 class="furniture__header">Malta</h3>
                         <p class="furniture__text">
@@ -221,7 +264,10 @@
 
             <div class="furniture__wrapper">
                 <div class="furniture__box">
-                    <img class="furniture__img" src="./image/versal.png" alt="furniture">
+                    <picture>
+                        <source media="(max-width: 375px)" srcset="./image/versal1.png">
+                        <img class="furniture__img" src="./image/versal.png" alt="furniture">
+                    </picture>
                     <div class="furniture__right">
                         <h3 class="furniture__header">Versal</h3>
                         <p class="furniture__text">
@@ -231,7 +277,10 @@
                 </div>
 
                 <div class="furniture__box">
-                    <img class="furniture__img" src="./image/exclusive.png" alt="furniture">
+                    <picture>
+                        <source media="(max-width: 375px)" srcset="./image/exclusive1.png">
+                        <img class="furniture__img" src="./image/exclusive.png" alt="furniture">
+                    </picture>
                     <div class="furniture__right">
                         <h3 class="furniture__header">Exclusive 1</h3>
                         <p class="furniture__text">
@@ -243,7 +292,10 @@
 
             <div class="furniture__wrapper">
                 <div class="furniture__box">
-                    <img class="furniture__img" src="./image/floret.png" alt="furniture">
+                    <picture>
+                        <source media="(max-width: 375px)" srcset="./image/floret1.png">
+                        <img class="furniture__img" src="./image/floret.png" alt="furniture">
+                    </picture>
                     <div class="furniture__right">
                         <h3 class="furniture__header">Floret</h3>
                         <p class="furniture__text">
@@ -253,7 +305,10 @@
                 </div>
 
                 <div class="furniture__box">
-                    <img class="furniture__img" src="./image/bed.png" alt="furniture">
+                    <picture>
+                        <source media="(max-width: 375px)" srcset="./image/bed1.png">
+                        <img class="furniture__img" src="./image/bed.png" alt="furniture">
+                    </picture>
                     <div class="furniture__right">
                         <h3 class="furniture__header">Exclusive bed 2</h3>
                         <p class="furniture__text">
@@ -265,7 +320,10 @@
 
             <div class="furniture__wrapper">
                 <div class="furniture__box">
-                    <img class="furniture__img" src="./image/arni.png" alt="furniture">
+                    <picture>
+                        <source media="(max-width: 375px)" srcset="./image/arni1.png">
+                        <img class="furniture__img" src="./image/arni.png" alt="furniture">
+                    </picture>
                     <div class="furniture__right">
                         <h3 class="furniture__header">Arni</h3>
                         <p class="furniture__text">
@@ -275,7 +333,10 @@
                 </div>
 
                 <div class="furniture__box">
-                    <img class="furniture__img" src="./image/taiti.png" alt="furniture">
+                    <picture>
+                        <source media="(max-width: 375px)" srcset="./image/taiti1.png">
+                        <img class="furniture__img" src="./image/taiti.png" alt="furniture">
+                    </picture>
                     <div class="furniture__right">
                         <h3 class="furniture__header">Taiti</h3>
                         <p class="furniture__text">
@@ -297,8 +358,91 @@
                 </button>
             </div>
 
-            <button class="furniture__footer">смотреть все</button>
+            <div class="furniture__bottom">
+                <button class="furniture__footer">смотреть все</button>
+            </div>
         </div> <!-- end of furniture -->
     </div> <!-- end of furniture-container -->
+
+    <section class="main-section">
+        <div class="container main-container">
+            <div class="main">
+                <div class="main__box">
+                    <h2 class="main__header">остались вопросы?</h2>
+                    <p class="main__text">Заполните форму</p>
+                    <form class="main__form" target="_blank" action="https://echo.htmlacademy.ru" method="post">
+                        <input class="main__input" type="text" placeholder="Ваше имя*">
+                        <hr>
+                        <input class="main__input" type="number" placeholder="Ваш номер телефона*">
+                        <hr>
+                        <input class="main__input" type="text" placeholder="Страна">
+                        <hr>
+                        <input class="main__input" type="text" placeholder="Комментарий">
+                        <hr>
+                        <div class="main__input-bottom">
+                            <input class="main__check" type="checkbox" id="check" name="check">
+                            <label class="main__label" for="check">Подтверждая заказ, я принимаю условия пользовательского соглашения</label>
+                        </div>
+                        <div class="main__send-tag">
+                            <input class="main__send" type="submit" value="запросить звонок">
+                        </div>
+                   </form>
+                </div>
+            </div>
+        </div> <!-- end of main-cintainer -->
+    </section> <!-- end of main-section -->
+
+    <div class="container banner-container">
+        <div class="banner">
+            <img class="banner__img" src="./image/ekmi.png" alt="ekmi">
+        </div> <!-- end of banner -->
+    </div> <!-- end of bsanner-container -->
+
+    <section class="footer-section">
+        <div class="container footer-container">
+            <footer class="footer">
+                <a href="index.html" class="footer__logo-link">
+                    <img class="footer__logo" src="./image/bottom-logo.svg" width="170px" height="56px" alt="logo">
+                </a>
+
+                <div class="footer__wrapper">
+                    <div class="footer__left">
+                        <a href="#" class="footer__link">Каталог</a>
+                        <a href="#" class="footer__link">о компании</a>
+                        <a href="#" class="footer__link">Индивидуальная мебель</a>
+                        <a href="#" class="footer__link footer__last">Партнерам дизайнерам</a>
+                    </div>
+    
+                    <div class="footer__right">
+                        <a href="#" class="footer__link">2D, 3D модели</a>
+                        <a href="#" class="footer__link">Шоу-румы</a>
+                        <a href="#" class="footer__link">Дилерам</a>
+                        <a href="#" class="footer__link">Контакты</a>
+                        <a href="#" class="footer__link footer__last">Конфигуратор</a> 
+                    </div>
+                </div>
+
+                <div class="footer_about">
+                    <div class="footer__socials">
+                        <a href="#" class="footer__social">
+                            <img class="footer__ins" src="./image/instagram.svg" width="27.6" height="27.8" alt="instagram">
+                        </a>
+
+                        <a href="#" class="footer__social">
+                            <img class="footer__fb" src="./image/facebook.svg" width="27.6" height="27.8" alt="facebook">
+                        </a>
+                    </div>
+
+                    <a class="footer__number" href="tel:380996384537">+38 (099)-638-45-37</a>
+
+                    <div class="footer__next">
+                        <a href="single.html" class="footer__next-link">Персональная консультация</a>
+                        <img class="footer__next-img" src="./image/strelka.svg" alt="arrow">
+                    </div>
+                </div>
+            </footer> <!-- end of footer -->
+            <div class="footer-bottom">© 1993–2021 Интернет-магазин «EKMI™» — меблі</div>
+        </div> <!-- end of footer-container -->
+    </section> <!-- end of footer-container -->
 </body>
 </html>

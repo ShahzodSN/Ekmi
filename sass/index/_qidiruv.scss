@@ -23,6 +23,10 @@
         justify-content: space-between;
     }
 
+    &__ex {
+        display: none;
+    }
+
     &__tugmasi {
         border: none;
         background-color: white;
@@ -59,5 +63,41 @@
         background-image: url(../image/search.svg);
         background-repeat: no-repeat;
         background-size: 20px 19px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .qidiruv {
+       max-width: 300px;
+       display: flex;
+       flex-direction: column;
+       margin-top: 30px;
+       margin-bottom: 60px;
+
+        &__tugmasi {
+            display: none;
+        }
+
+        &__wrapper {
+            display: flex;
+            margin-bottom: 30px;
+        } 
+
+        &__modeli {
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 110%;
+            color: #4B4844;            
+        }
+
+        &__ex {
+            display: block;
+            border: none;
+            background-color: #ffffff;
+            margin-left: 87px;
+        }
+
     }
 }
