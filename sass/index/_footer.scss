@@ -93,32 +93,20 @@
     color: #FFFFFF;
 }
 
-@media only screen and (max-width: 375x) {
+@media only screen and (max-width: 375px) {
     .footer {
         margin: 0;
-        padding: 63px 35px 27px 35px;
-        display: flex;
-        flex-direction: column
+        padding: 63px 36px 27px;
+        display: block;
+        flex-direction: column;
 
-        &__wrapper {
-            order: -1;
-            width: 302px;
-            display: flex;
-            justify-content: space-between;
-            margin-bottom: 77px;
-        }
-        
-
-        &__logo-link {
-            order: 1;
+        &-section {
+            display: inline-block;
         }
 
-        &__wrapper {
-            order: -1;
-            width: 302px;
+        &__about {
+            max-width: 270px;
             display: flex;
-            justify-content: space-between;
-            margin-bottom: 77px;
         }
     }
 }

@@ -750,40 +750,24 @@ hr {
   color: #FFFFFF;
 }
 
-@media only screen and (max-width: 375x) {
+@media only screen and (max-width: 375px) {
   .footer {
     margin: 0;
-    padding: 63px 35px 27px 35px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+    padding: 63px 36px 27px;
+    display: block;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column .footer __wrapper;
-            flex-direction: column .footer __wrapper;
-    flex-direction-order: -1;
-    flex-direction-width: 302px;
-    flex-direction-display: flex;
-    flex-direction-justify-content: space-between;
-    flex-direction-margin-bottom: 77px;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
-  .footer__logo-link {
-    -webkit-box-ordinal-group: 2;
-        -ms-flex-order: 1;
-            order: 1;
+  .footer-section {
+    display: inline-block;
   }
-  .footer__wrapper {
-    -webkit-box-ordinal-group: 0;
-        -ms-flex-order: -1;
-            order: -1;
-    width: 302px;
+  .footer__about {
+    max-width: 270px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    margin-bottom: 77px;
   }
 }
 
