@@ -1,0 +1,21 @@
+.banner {
+    margin: 0;
+    padding: 0;
+    margin-top: 160px;
+    margin-left: 850px;
+    &__img {
+        margin: 0;
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .banner {
+        margin-top: 90px;
+        margin-left: 130px;
+        &__img {
+            width: 223;
+            height: 60px;
+        }
+    }
+}
