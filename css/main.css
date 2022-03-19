@@ -859,7 +859,7 @@ hr {
   }
 }
 
-.hero {
+.s-hero {
   max-width: 1141px;
   margin: 0 auto;
   margin-bottom: 184px;
@@ -874,16 +874,16 @@ hr {
           justify-content: space-between;
 }
 
-.hero__img {
+.s-hero__img {
   width: 732px;
   height: 380px;
 }
 
-.hero__right {
+.s-hero__right {
   max-width: 371px;
 }
 
-.hero__header {
+.s-hero__header {
   margin: 0;
   padding: 0;
   font-family: 'Raleway';
@@ -895,7 +895,7 @@ hr {
   color: #343434;
 }
 
-.hero__text {
+.s-hero__text {
   margin: 30px 0 15px;
   padding: 0;
   font-family: 'Raleway';
@@ -907,7 +907,7 @@ hr {
   color: #343434;
 }
 
-.hero__texts {
+.s-hero__texts {
   margin: 0;
   padding: 0;
   font-family: 'Raleway';
@@ -919,7 +919,7 @@ hr {
   color: #343434;
 }
 
-.hero__price {
+.s-hero__price {
   margin: 15px 0 30px;
   padding: 0;
   font-family: 'Open Sans';
@@ -931,7 +931,7 @@ hr {
   color: #FF9619;
 }
 
-.hero__link {
+.s-hero__link {
   margin: 0;
   padding: 15px 13px;
   background-color: #FF9619;
@@ -944,7 +944,7 @@ hr {
   color: #FFFFFF;
 }
 
-.hero__link:hover {
+.s-hero__link:hover {
   color: #FFFFFF;
 }
 
